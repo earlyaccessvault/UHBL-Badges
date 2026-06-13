@@ -1,0 +1,21 @@
+fire both remotes as singular at the same time and u get the badge
+
+local Event = game:GetService("ReplicatedStorage").AdminRemotes.SpawnEntity
+Event:FireServer(
+    {
+        "XAK",
+        1,
+        true
+    }
+)
+
+
+
+local Event = game:GetService("ReplicatedStorage").AdminRemotes.SpawnEntity
+Event:FireServer(
+    {
+        "GGD",
+        1,
+        true
+    }
+)
