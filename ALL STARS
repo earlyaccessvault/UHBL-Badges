@@ -1,0 +1,4 @@
+local Event = game:GetService("ReplicatedStorage").Remotes.Data.AwardBadge
+Event:FireServer(
+    2956549780868346
+)
